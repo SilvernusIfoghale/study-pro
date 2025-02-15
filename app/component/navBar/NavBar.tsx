@@ -11,7 +11,7 @@ export default function NavBar() {
   return (
     <>
       <nav className="flex justify-center py-3">
-        <div className="flex items-center gap-3 justify-between w-[85%] font-semibold">
+        <div className="flex items-center gap-3 justify-between w-[80%] font-semibold">
           <div className="flex gap-10 items-center">
             <div className="flex items-center gap-3">
               {!toggle && (

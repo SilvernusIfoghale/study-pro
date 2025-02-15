@@ -1,5 +1,7 @@
+import Accessible from "./component/accessible/Accessible";
 import Hero from "./component/hero/Hero";
 import NavBar from "./component/navBar/NavBar";
+import Packages from "./component/packages/Packages";
 
 export default function Home() {
   return (
@@ -9,6 +11,10 @@ export default function Home() {
           <NavBar />
           <Hero />
         </header>
+        <section>
+          <Packages />
+          <Accessible />
+        </section>
       </main>
     </>
   );

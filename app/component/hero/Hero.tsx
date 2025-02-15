@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
       <section className="flex justify-center mt-20">
-        <div className="w-[90%] font-semibold  flex justify-between items-center flex-col sm:flex-row gap-10">
+        <div className="w-[90%] lg:w-[85%] font-semibold  flex justify-between items-center flex-col sm:flex-row gap-10">
           <div className="min-w-[300px]">
             <h2 className="text-primary-color text-[1rem] py-5">
               Online training
