@@ -1,4 +1,5 @@
 import Accessible from "./component/accessible/Accessible";
+import Courses from "./component/courses/Courses";
 import Hero from "./component/hero/Hero";
 import NavBar from "./component/navBar/NavBar";
 import Packages from "./component/packages/Packages";
@@ -14,6 +15,7 @@ export default function Home() {
         <section>
           <Packages />
           <Accessible />
+          <Courses />
         </section>
       </main>
     </>

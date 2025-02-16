@@ -1,12 +1,13 @@
 import React from "react";
 import accessible from "@/public/assets/accessible.png";
+import nextArrow from "@/public/assets/icon arrow-next.png";
 import Image from "next/image";
 
 export default function Accessible() {
   return (
     <>
       <section className="flex justify-center mt-20">
-        <div className="w-[90%] lg:w-[85%] font-semibold  flex justify-between items-center flex-col sm:flex-row gap-10">
+        <div className="w-[80%]  font-semibold  flex justify-between items-center flex-col sm:flex-row gap-10">
           <div className="min-w-[350px]">
             <h2 className=" py-5">
               <span className="block h-1 w-20 bg-danger-color"></span>
@@ -22,8 +23,8 @@ export default function Accessible() {
               Newtonian mechanics
             </p>
 
-            <button className=" h-9 rounded-md  text-xs text-primary-color ">
-              Learn More &gt;
+            <button className=" h-9 rounded-md  text-xs text-primary-color flex gap-3 items-center">
+              Learn More <Image src={nextArrow} width={7} alt="right arrow" />
             </button>
           </div>
 

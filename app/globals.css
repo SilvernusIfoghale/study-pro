@@ -5,6 +5,7 @@
 @theme {
   --font-montserrat: "Montserrat", serif;
   --color-faded-secondary-color-1: #b9eaa8;
+  --color-secondary-color-1: #40bb15;
   --color-faded-secondary-color-2: #ffdcd1;
   --color-faded-secondary-text-color: #737373;
   --color-faded-primary-color: #b2e3ff;
@@ -12,4 +13,6 @@
   --color-primary-color: #23a6f0;
   --color-second-text-color: #737373;
   --color-danger-color: #e74040;
+  --color-dark-background-color: #252b42;
+  --color-muted-color: #bdbdbd;
 }
