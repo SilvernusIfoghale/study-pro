@@ -3,7 +3,10 @@ import React from "react";
 export default function Subscribe() {
   return (
     <>
-      <section className="my-5 flex justify-center font-semibold mt-28">
+      <section
+        className="my-5 flex justify-center font-semibold mt-28"
+        id="subscribe"
+      >
         <div className="w-[80%] sm:w-[60%] md:w-[50%]">
           <div className="text-center">
             <h2 className="text-primary-color text-[1rem]  py-5">
@@ -26,10 +29,10 @@ export default function Subscribe() {
                 name="email"
                 id="email"
                 placeholder="Your Email"
-                className=" bg-input-color w-full p-3 text-xs "
+                className=" bg-input-color w-full p-3 text-xs outline-none"
               />
             </div>
-            <button className="w-32  p-3  bg-primary-color text-white text-xs">
+            <button className="w-32  p-3  bg-primary-color text-white text-xs cursor-pointer ">
               Subscribe
             </button>
           </div>

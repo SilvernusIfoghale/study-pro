@@ -18,24 +18,24 @@ export default function CoursesCard({ img1 }: CoursesCardProps) {
   return (
     <>
       <div>
-        <div className=" max-w-80 relative">
-          <span className="absolute block w-10 text-white text-[0.65rem] m-4 rounded-xs text-center bg-danger-color">
+        <div className=" max-w-80 relative overflow-hidden">
+          <span className="absolute block w-10 text-white text-[0.65rem] m-4 rounded-xs text-center bg-danger-color z-10">
             Sale
           </span>
           <Image
             src={img1}
             alt="lady on glasses and smiling"
-            className="w-full object-contain"
+            className="w-full object-contain hover:scale-105 duration-500"
           />
           <div className="absolute bottom-5  w-full ">
             <div className="flex justify-center gap-2 ">
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center hover:bg-faded-secondary-color-2 cursor-pointer">
                 <Image src={iconHeart} alt="heart icon" width={15} />
               </div>
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center hover:bg-faded-secondary-color-2 cursor-pointer">
                 <Image src={iconCart} alt="heart icon" width={15} />
               </div>
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center hover:bg-faded-secondary-color-2 cursor-pointer">
                 <Image src={iconView} alt="heart icon" width={15} />
               </div>
             </div>
@@ -63,22 +63,23 @@ export default function CoursesCard({ img1 }: CoursesCardProps) {
               <p className="text-muted-color">$16.48</p>
               <p className="font-bold text-secondary-color-1 ">$6.48</p>
             </div>
-            <div className="my-6 flex justify-between items-center">
-              <div className="flex items-center text-xs gap-2">
+            <div className="my-6 text-[0.65rem] flex justify-between items-center">
+              <div className="flex items-center  gap-1">
                 <Image src={iconCalender} alt="clock" />
                 <p>22hr 30min</p>
               </div>
-              <div className="flex items-center text-xs gap-2">
+              <div className="flex items-center  gap-1">
                 <Image src={iconLesson} alt="clock" />
                 <p>64 Lessons</p>
               </div>
-              <div className="flex items-center text-xs gap-2">
+              <div className="flex items-center  gap-1">
                 <Image src={iconProgress} alt="clock" />
                 <p>Progress</p>
               </div>
             </div>
-            <button className="text-primary-color flex border-[1.5px] py-2 px-4 rounded-4xl border-primary-color items-center gap-3">
-              Learn More <Image src={iconRightArrow} alt="right arrow" />
+            <button className="text-primary-color text-xs flex border-[1.5px] py-2 px-4 rounded-4xl border-primary-color items-center gap-3 hover:scale-105 duration-500 cursor-pointer">
+              Learn More{" "}
+              <Image src={iconRightArrow} width={8} alt="right arrow" />
             </button>
           </div>
         </div>

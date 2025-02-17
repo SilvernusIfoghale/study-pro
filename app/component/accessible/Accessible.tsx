@@ -23,7 +23,7 @@ export default function Accessible() {
               Newtonian mechanics
             </p>
 
-            <button className=" h-9 rounded-md  text-xs text-primary-color flex gap-3 items-center">
+            <button className=" h-9 rounded-md  text-xs text-primary-color flex gap-3 items-center border-b-transparent hover:border-faded-primary-color border-b-2 cursor-pointer hover:scale-105 duration-500">
               Learn More <Image src={nextArrow} width={7} alt="right arrow" />
             </button>
           </div>

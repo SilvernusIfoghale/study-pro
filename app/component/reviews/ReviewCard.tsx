@@ -9,14 +9,14 @@ type ReviewCardProps = {
 
 export default function ReviewCard({ img }: ReviewCardProps) {
   return (
-    <div className="min-w-30 h-80 bg-white ">
+    <div className="min-w-30 h-80 bg-white hover:shadow-md hover:scale-105 duration-500">
       <div className="flex flex-col h-full justify-center items-center ">
         <div className="flex items-center gap-1">
-          <Image src={iconStar} alt="star" />
-          <Image src={iconStar} alt="star" />
-          <Image src={iconStar} alt="star" />
-          <Image src={iconStar} alt="star" />
-          <Image src={iconStar0} alt="star" />
+          <Image src={iconStar} alt="star" width={18} />
+          <Image src={iconStar} alt="star" width={18} />
+          <Image src={iconStar} alt="star" width={18} />
+          <Image src={iconStar} alt="star" width={18} />
+          <Image src={iconStar0} alt="star" width={18} />
         </div>
         <p className="text-xs py-5 leading-5 text-center text-faded-secondary-text-color w-[8.9rem] xl:w-52">
           Slate helps you see how many more days you need to work to reach your

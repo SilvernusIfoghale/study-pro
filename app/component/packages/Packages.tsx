@@ -7,7 +7,10 @@ import PackageCard from "./PackageCard";
 export default function Packages() {
   return (
     <>
-      <section className="my-5 flex justify-center font-semibold mt-20">
+      <section
+        className="my-5 flex justify-center font-semibold mt-20 "
+        id="product"
+      >
         <div className="w-[80%]">
           <div className="">
             <h2 className="text-primary-color text-[1rem]  py-5">
@@ -22,7 +25,7 @@ export default function Packages() {
               the two major realms of Classical physics: Newtonian mechanics
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-10  ">
+          <div className="grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-10  mt-5">
             {/* component */}
             <PackageCard
               icon={AccessIcon}

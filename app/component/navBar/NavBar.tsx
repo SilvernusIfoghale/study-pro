@@ -39,35 +39,38 @@ export default function NavBar() {
             >
               <Link
                 href="/"
-                className="hover:text-primary-color pb-3 sm:pb-0 block sm:inline"
+                className="hover:text-primary-color pb-3 sm:pb-0 block sm:inline duration-200"
               >
                 Home
               </Link>
               <Link
-                href="/"
-                className="hover:text-primary-color  pb-3 sm:pb-0 block sm:inline"
+                href="#product"
+                className="hover:text-primary-color  pb-3 sm:pb-0 block sm:inline duration-200"
               >
                 Product
               </Link>
               <Link
-                href="/"
-                className="hover:text-primary-color  pb-3 sm:pb-0 block sm:inline"
+                href="#courses"
+                className="hover:text-primary-color  pb-3 sm:pb-0 block sm:inline duration-200"
               >
                 Pricing
               </Link>
               <Link
-                href="/"
-                className="hover:text-primary-color  pb-3 sm:pb-0 block sm:inline"
+                href="#subscribe"
+                className="hover:text-primary-color  pb-3 sm:pb-0 block sm:inline duration-500"
               >
                 Contact
               </Link>
             </div>
           </div>
           <div className="flex items-center gap-4 sm:gap-10 text-xs">
-            <Link href="/" className="text-primary-color">
+            <Link
+              href="/"
+              className="text-primary-color  hover:scale-110 duration-500 "
+            >
               Login
             </Link>
-            <button className="bg-primary-color w-24 h-8  text-white rounded-md flex justify-center items-center gap-2 text-[0.65rem] cursor-pointer">
+            <button className="bg-primary-color w-24 h-8  text-white rounded-md flex justify-center items-center gap-2 text-[0.65rem] cursor-pointer hover:scale-110 duration-500">
               <span> JOIN US</span>
               <span className="">
                 <Image src={vector} alt="right arrow" className="w-2.5" />

@@ -20,10 +20,10 @@ export default function Hero() {
               We know how large objects will act, <br />
               but things on a small scale.
             </p>
-            <button className="w-32 h-9 rounded-md bg-primary-color text-white text-xs">
+            <button className="w-32 h-9 rounded-md bg-primary-color text-white text-xs hover:scale-105 duration-500 cursor-pointer">
               Get Quote Now
             </button>
-            <button className="w-32 h-9 rounded-md border-primary-color border-[1.4px] text-xs text-primary-color ml-3">
+            <button className="w-32 h-9 rounded-md border-primary-color border-[1.4px] text-xs text-primary-color ml-3 hover:scale-105 cursor-pointer duration-500">
               Learn More
             </button>
           </div>

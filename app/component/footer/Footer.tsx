@@ -19,33 +19,33 @@ export default function Footer() {
               <Image
                 src={facebook}
                 alt="facebook"
-                className="w-full object-cover"
+                className="w-full object-cover hover:scale-110 duration-500 cursor-pointer"
               />
               <Image
                 src={instagram}
                 alt="facebook"
-                className="w-full object-cover"
+                className="w-full object-cover hover:scale-110 duration-500 cursor-pointer"
               />
               <Image
                 src={twitter}
                 alt="facebook"
-                className="w-full object-cover"
+                className="w-full object-cover hover:scale-110 duration-500 cursor-pointer"
               />
             </div>
           </div>
           <div>
             <h3 className="pb-3 font-bold text-lg">Company info</h3>
             <div className="text-xs text-faded-secondary-text-color ">
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 About Us
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 Carrier
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 We are hiring
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 Blog
               </Link>
             </div>
@@ -53,16 +53,16 @@ export default function Footer() {
           <div>
             <h3 className="pb-3 font-bold text-lg">Features</h3>
             <div className="text-xs text-faded-secondary-text-color ">
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 Business Marketing
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 User Analytic
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 Live Chat
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 Unlimited Support
               </Link>
             </div>
@@ -70,16 +70,16 @@ export default function Footer() {
           <div>
             <h3 className="pb-3 font-bold text-lg">Resources</h3>
             <div className="text-xs text-faded-secondary-text-color ">
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 IOS & Android
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 Watch a Demo
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 Customers
               </Link>
-              <Link href={"/"} className="block py-1">
+              <Link href={"/"} className="block py-1 hover:text-primary-color">
                 API
               </Link>
             </div>

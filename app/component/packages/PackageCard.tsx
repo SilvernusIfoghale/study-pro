@@ -14,7 +14,7 @@ export default function PackageCard({
   icon,
 }: PackageProps) {
   return (
-    <div className="shadow-sm min-w-52 h-72 p-7">
+    <div className="shadow-sm min-w-72 sm:min-w-52 h-72 p-7 hover:scale-105 duration-500">
       <div
         className={`${color} w-16 h-16 rounded-lg grid place-content-center`}
       >
