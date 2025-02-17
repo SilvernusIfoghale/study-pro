@@ -7,7 +7,7 @@ import PackageCard from "./PackageCard";
 export default function Packages() {
   return (
     <>
-      <section className="my-5 flex justify-center font-semibold ">
+      <section className="my-5 flex justify-center font-semibold mt-20">
         <div className="w-[80%]">
           <div className="">
             <h2 className="text-primary-color text-[1rem]  py-5">

@@ -6,9 +6,9 @@ import Image from "next/image";
 export default function Accessible() {
   return (
     <>
-      <section className="flex justify-center mt-20">
+      <section className="flex justify-center mt-28 ">
         <div className="w-[80%]  font-semibold  flex justify-between items-center flex-col sm:flex-row gap-10">
-          <div className="min-w-[350px]">
+          <div className="sm:min-w-[350px]">
             <h2 className=" py-5">
               <span className="block h-1 w-20 bg-danger-color"></span>
             </h2>

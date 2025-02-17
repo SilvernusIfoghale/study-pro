@@ -3,6 +3,7 @@ import Courses from "./component/courses/Courses";
 import Hero from "./component/hero/Hero";
 import NavBar from "./component/navBar/NavBar";
 import Packages from "./component/packages/Packages";
+import Reviews from "./component/reviews/Reviews";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <Packages />
           <Accessible />
           <Courses />
+          <Reviews />
         </section>
       </main>
     </>

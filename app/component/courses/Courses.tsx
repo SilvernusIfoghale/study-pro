@@ -6,7 +6,7 @@ import ladyImage3 from "@/public/assets/product-cover-98.png";
 export default function Courses() {
   return (
     <>
-      <section className="flex justify-center my-20 font-semibold">
+      <section className="flex justify-center mt-32 mb-56 font-semibold">
         <div className="w-[80%]">
           <div className="  mb-5">
             <h2 className="text-primary-color text-[1rem]  py-5">
