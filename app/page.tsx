@@ -4,6 +4,7 @@ import Hero from "./component/hero/Hero";
 import NavBar from "./component/navBar/NavBar";
 import Packages from "./component/packages/Packages";
 import Reviews from "./component/reviews/Reviews";
+import Subscribe from "./component/subscribe/Subscribe";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <Accessible />
           <Courses />
           <Reviews />
+          <Subscribe />
         </section>
       </main>
     </>
