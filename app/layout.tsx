@@ -10,6 +10,17 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Study Pro",
   description: "Your favorite online study guide",
+  // icons: {
+  //   icon: [
+  //     {
+  //       rel: "icon",
+  //       type: "image/png",
+  //       sizes: "32x32",
+  //       url: "./favicon.ico",
+  //       href: "./favicon.ico",
+  //     },
+  //   ],
+  // },
 };
 
 export default function RootLayout({
